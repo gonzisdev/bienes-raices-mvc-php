@@ -17,13 +17,13 @@ class ImageManager
         'driver' => 'gd'
     ];
 
-    /**
+    /** 
      * Creates new instance of Image Manager
      *
      * @param array $config
      */
     public function __construct(array $config = [])
-    {
+    { 
         $this->checkRequirements();
         $this->configure($config);
     }
